@@ -1,0 +1,25 @@
+{
+  "name": "typoteka-2023",
+  "version": "1.0.0",
+  "description": "Типотека",
+  "main": "./src/service/service.js",
+  "scripts": {
+    "start": "node ./src/service/service.js",
+    "test": "npm run eslint",
+    "eslint": "eslint --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shirokuiu/typoteka-2023.git"
+  },
+  "author": "Osipov Pavel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shirokuiu/typoteka-2023/issues"
+  },
+  "homepage": "https://github.com/Shirokuiu/typoteka-2023#readme",
+  "devDependencies": {
+    "eslint": "8.46.0",
+    "eslint-config-htmlacademy": "0.6.0"
+  }
+}
