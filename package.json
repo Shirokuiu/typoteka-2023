@@ -5,7 +5,7 @@
   "main": "./src/service/service.js",
   "scripts": {
     "start": "node ./src/service/service.js",
-    "start-front-server": "node ./src/express/express.js",
+    "start-front-server": "nodemon ./src/express/express.js",
     "test": "npm run eslint",
     "eslint": "eslint --ext .js src/"
   },
@@ -21,7 +21,8 @@
   "homepage": "https://github.com/Shirokuiu/typoteka-2023#readme",
   "devDependencies": {
     "eslint": "8.46.0",
-    "eslint-config-htmlacademy": "0.6.0"
+    "eslint-config-htmlacademy": "0.6.0",
+    "nodemon": "3.0.1"
   },
   "dependencies": {
     "chalk": "4.0.0",
