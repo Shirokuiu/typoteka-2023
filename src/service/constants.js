@@ -2,6 +2,10 @@
 
 const DEFAULT_PORT = 3000;
 
+const mocks = {
+  posts: []
+};
+
 const HttpCode = {
   OK: 200,
   CREATED: 201,
@@ -14,5 +18,6 @@ const HttpCode = {
 
 module.exports = {
   DEFAULT_PORT,
-  HttpCode
+  HttpCode,
+  mocks
 };
